@@ -3,7 +3,7 @@ const path = require('path');
 const app = express();
 
 // Serve the static files from the dist directory
-app.use(express.static(path.join(__dirname, 'dist/heroku-ang-app')));
+app.use(express.static(path.join(__dirname, 'dist/heroku-ang-app/browser')));
 
 // Fallback route to handle all other requests
 app.get('/*', function (req, res) {
