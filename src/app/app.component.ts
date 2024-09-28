@@ -9,5 +9,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'heroku-ang-app';
+  title = 'heroku-ang-app-v2';
 }
