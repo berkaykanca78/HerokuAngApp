@@ -6,7 +6,7 @@ const app = express();
 app.use(express.static('./dist/heroku-ang-app'));
 
 app.get('/*', (req,res) =>
-  res.sendFile('index.html', {root: './dist/heroku-ang-app/browser'}),
+  res.sendFile('index.html', {root: 'dist/heroku-ang-app/browser'}),
 );
 
 app.listen(process.env.PORT || 8080);
